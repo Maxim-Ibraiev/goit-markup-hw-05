@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="break">
       <nav class="nav-header container">
         <a href="index.html" class="logo">
           <span class="logo-web">Web</span>
@@ -20,14 +20,14 @@
         </a>
         <ul class="nav">
           <li><a href="index.html" class="nav-link">Студия</a></li>
-          <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+          <li class="actual-page"><a href="portfolio.html" class="nav-link">Портфолио</a></li>
           <li><a href="" class="nav-link">Контакты</a></li>
         </ul>
-        <ul class="nav-address">
+        <ul class="nav-address hover-icon">
           <li>
             <a href="mailto:info@devstudio.com" class="icon-envelope">
               <svg width="16px" height="11.2px">
-                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                <use class="icon-hover" href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
@@ -35,12 +35,13 @@
           <li>
             <a href="tel:+380961111111"> 
               <svg  width="10px" height="15px" class="icon-smartphone">
-                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                <use class="icon-hover" href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
             +38 096 111 11 11</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <nav class="nav-portfolio space-94">
         <ul class="nav-portfolio-list">
@@ -58,172 +59,209 @@
         <h1 class="transparent">Портфолио</h1>
         <ul class="basic-portfolio container">
           <li>
-            <a href="portfolio.html/"
-              ><img
-                src="./images/project-1.jpg"
-                alt="gray-dackgraund"
-                width="370"
-                height="294"
-              />
+            <a href="portfolio.html/">
+              <div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-1.jpg"
+                  alt="project-1"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
               <div class="info">
                 <h2>Технокряк</h2>
                 <p>Веб-сайт</p>
-                <p class="text-partfolio transparent">
-                  Технокряк это современная площадка распространения коронавируса.
-                  Компании используют эту платформу для цифрового шпионажа и атак
-                  на защищённые сервера конкурентов.
-                </p>
-            </div>
-            </a>
-          </li>
-          <li>
-            <a href="portfolio.html"
-              ><img
-                src="./images/project-2.jpg"
-                alt="gray-background"
-                width="370"
-                height="294"
-              />
-              <div class="info"><h2>Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
-                <p class="text-partfolio transparent">
-                  Технокряк это современная площадка распространения коронавируса.
-                  Компании используют эту платформу для цифрового шпионажа и атак
-                  на защищённые сервера конкурентов.
-                </p>
               </div>
             </a>
           </li>
           <li>
             <a href="portfolio.html"
-              ><img
-                src="./images/project-3.jpg"
-                alt="gray-background"
-                width="370"
-                height="294"
-              />
+              ><div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-2.jpg"
+                  alt="project-2"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
+              <div class="info">
+                <h2>Постер New Orlean vs Golden Star</h2>
+                <p>Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="portfolio.html"
+              ><div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-3.jpg"
+                  alt="project-3"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
               <div class="info">
                 <h2>Ресторан Seafood</h2>
                 <p>Приложение</p>
-                <p class="text-partfolio transparent">
-                  Технокряк это современная площадка распространения коронавируса.
-                  Компании используют эту платформу для цифрового шпионажа и атак
-                  на защищённые сервера конкурентов.
-                </p>
               </div>
             </a>
           </li>
           <li>
             <a href="portfolio.html"
-              ><img
-                src="./images/project-4.jpg"
-                alt="gray-background"
-                width="370"
-                height="294"
-              />
+              ><div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-4.jpg"
+                  alt="project-4"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
               <div class="info">
                 <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
-              <p class="text-partfolio transparent">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
+                <p>Маркетинг</p>
               </div>
             </a>
           </li>
           <li>
             <a href="portfolio.html"
-              ><img
-                src="./images/project-5.jpg"
-                alt="gray-background"
-                width="370"
-                height="294"
-              />
-             <div class="info">
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
-              <p class="text-partfolio transparent">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-             </div>
+              ><div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-5.jpg"
+                  alt="project-5"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
+              <div class="info">
+                <h2>Проект Boxes</h2>
+                <p>Приложение</p>
+              </div>
             </a>
           </li>
           <li>
             <a href="portfolio.html"
-              ><img
-                src="./images/project-6.jpg"
-                alt="gray-background"
-                width="370"
-                height="294"
-              />
+              ><div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-6.jpg"
+                  alt="project-6"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
               <div class="info">
                 <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
-              <p class="text-partfolio transparent">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
+                <p>Веб-сайт</p>
               </div>
             </a>
           </li>
           <li>
             <a href="portfolio.html"
-              ><img
-                src="./images/project-7.jpg"
-                alt="gray-background"
-                width="370"
-                height="294"
-              />
+              ><div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-7.jpg"
+                  alt="project-7"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
               <div class="info">
                 <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
-              <p class="text-partfolio transparent">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
+                <p>Дизайн</p>
               </div>
             </a>
           </li>
           <li>
             <a href="portfolio.html"
-              ><img
-                src="./images/project-8.jpg"
-                alt="gray-background"
-                width="370"
-                height="294"
-              />
+              ><div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-8.jpg"
+                  alt="project-8"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
               <div class="info">
                 <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
-              <p class="text-partfolio transparent">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
+                <p>Маркетинг</p>
               </div>
             </a>
           </li>
           <li>
             <a href="portfolio.html"
-              ><img
-                src="./images/project-9.jpg"
-                alt="gray-background"
-                width="370"
-                height="294"
-              />
+              ><div class="foto-overlay">
+                <div class="overlay">
+                  <p class="text-partfolio">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <img
+                  src="./images/project-9.jpg"
+                  alt="project-9"
+                  width="370px"
+                  height="294px"
+                />
+              </div>
               <div class="info">
                 <h2>Growing Business</h2>
-              <p>Приложение</p>
-              <p class="text-partfolio transparent">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
+                <p>Приложение</p>
               </div>
             </a>
           </li>
